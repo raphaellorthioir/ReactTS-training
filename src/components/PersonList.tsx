@@ -1,13 +1,24 @@
 import React from 'react';
-
-const PersonList = () => {
-    return (
-        <div>
-            <h2>Bruce Wayne</h2>
-            <h2>Clart Kent</h2>
-            <h2>Bruce Wayne</h2>
-        </div>
-    );
+type PersonListProps = {
+  names: {
+    first: string;
+    last: string;
+  }[];
+};
+const PersonList = (props: PersonListProps) => {
+  return (
+    <div>
+      {props.names.map((name) => {
+        return (
+          <p key={name.first}>
+            {' '}
+            {name.first} {name.last}
+            
+          </p>
+        );
+      })}
+    </div>
+  );
 };
 
 export default PersonList;
