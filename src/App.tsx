@@ -6,6 +6,7 @@ import Greet from './components/Greet';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
 import LoggedIn from './components/state/LoggedIn';
+import User from './components/state/User';
 import Container from './components/style_props/Container';
 function App() {
   /*const personName = {
@@ -40,8 +41,9 @@ function App() {
       {/*  <Container
         styles={{ border: '1px solid black', padding: '1rem' }}
       ></Container>*/}
-
-      <LoggedIn></LoggedIn>
+      {/*
+      <LoggedIn></LoggedIn>*/}
+      <User></User>
     </div>
   );
 }
