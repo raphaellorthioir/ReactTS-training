@@ -33,10 +33,11 @@ function App() {
       <Person name={personName}></Person>
       <PersonList names={nameList}></PersonList>
   <AdvancedProps></AdvancedProps> 
-  <Main></Main>*/}
-      <Container
+  */}
+      <Main></Main>
+      {/*  <Container
         styles={{ border: '1px solid black', padding: '1rem' }}
-      ></Container>
+      ></Container>*/}
     </div>
   );
 }

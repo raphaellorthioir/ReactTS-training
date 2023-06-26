@@ -11,6 +11,7 @@ const Main = () => {
         }}
       ></Button>
       <Input
+      value='coucou'
         placeholder="Ecrire"
         handleChange={(event) => {
           console.log('coucou', event);
