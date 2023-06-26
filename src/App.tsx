@@ -5,6 +5,7 @@ import Main from './components/Event-Props/Main';
 import Greet from './components/Greet';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
+import Counter from './components/state/Counter';
 import LoggedIn from './components/state/LoggedIn';
 import User from './components/state/User';
 import Container from './components/style_props/Container';
@@ -43,7 +44,8 @@ function App() {
       ></Container>*/}
       {/*
       <LoggedIn></LoggedIn>*/}
-      <User></User>
+      {/*<User></User>*/}
+      <Counter></Counter>
     </div>
   );
 }
