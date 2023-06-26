@@ -5,6 +5,7 @@ import Main from './components/Event-Props/Main';
 import Greet from './components/Greet';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
+import LoggedIn from './components/state/LoggedIn';
 import Container from './components/style_props/Container';
 function App() {
   /*const personName = {
@@ -34,10 +35,13 @@ function App() {
       <PersonList names={nameList}></PersonList>
   <AdvancedProps></AdvancedProps> 
   */}
-      <Main></Main>
+      {/*  <Main></Main>*/}
+
       {/*  <Container
         styles={{ border: '1px solid black', padding: '1rem' }}
       ></Container>*/}
+
+      <LoggedIn></LoggedIn>
     </div>
   );
 }
