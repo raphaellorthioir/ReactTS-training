@@ -1,5 +1,7 @@
 import './App.css';
 import AdvancedProps from './components/AdvancedProps';
+import Main from './components/Event-Props/Main';
+
 import Greet from './components/Greet';
 import Person from './components/Person';
 import PersonList from './components/PersonList';
@@ -28,8 +30,9 @@ function App() {
     <div className="App">
       {/* <Greet name="raf" messageCount={5} isLoggedIn={false}></Greet>
       <Person name={personName}></Person>
-      <PersonList names={nameList}></PersonList>*/}
-      <AdvancedProps></AdvancedProps>
+      <PersonList names={nameList}></PersonList>
+  <AdvancedProps></AdvancedProps> */}
+      <Main></Main>
     </div>
   );
 }
